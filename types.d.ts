@@ -28,3 +28,11 @@ interface BookListProps {
 }
 
 type BookCoverVariant = "extraSmall" | "small" | "medium" | "regular" | "wide";
+
+interface AuthCredentials {
+  fullName: string;
+  email: string;
+  universityId: number;
+  universityCard: string;
+  password: string;
+}
